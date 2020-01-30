@@ -8943,6 +8943,7 @@ h1, h2, h3, h4, h5,
   height: 285px;
   margin-bottom: 30px;
   position: relative;
+  border:1px solid #007bff;
   z-index: 0; }
   .project.img-2 {
     height: 600px; }
