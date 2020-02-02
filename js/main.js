@@ -202,6 +202,18 @@
 	counter();
 
 
+	$(document).ready(function(){
+		$("#main-body").click(function(){
+			$("#ftco-nav").removeClass("navbar-collapse collapse show")
+			$("#ftco-nav").addClass("navbar-collapse collapse")
+		})
+	})
+
+
+
+
+
+
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
